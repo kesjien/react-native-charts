@@ -86,6 +86,7 @@ export default class Bar extends Component {
     return (
       <View style={[this.getStyles().container, style]}>
         <Animated.View style={this.getStyles().maximum} />
+        <Text style={{textAlign: 'center',  fontSize: 8}}>{this.props.value}</Text>
         <Animated.View style={this.getStyles().value} />
       </View>
     );
