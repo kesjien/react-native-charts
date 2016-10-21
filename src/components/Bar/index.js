@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { Animated, View } from 'react-native';
+import { Animated, View, Text } from 'react-native';
 import styles from './styles';
 
 export default class Bar extends Component {
