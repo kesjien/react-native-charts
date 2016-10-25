@@ -18,7 +18,7 @@ export default class Bar extends Component {
     destinationValueScale: 1,
     fillColor: '#00b5ec',
     initialValueScale: 0,
-    valueScaleSpringFriction: 5,
+    valueScaleSpringFriction: 25,
   };
 
   constructor(props) {
